@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+
+    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
+
+    <macros>\newcommand{\foo}{b^{ar}}</macros>
+    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+  </docinfo>
+
+  <article xml:id="shorttitlelowercase">
+   <p>
+  Here is a graph of the DERIVATIVE of a function <m>f</m>. The graph is of <m>f'</m>, NOT <m>f</m>.
+</p>
+
+<image width="70%">
+  <prefigure xmlns="https://prefigure.org"
+             label="prefigure-rectangle">
+  <diagram dimensions="(300,100)" margins="5">
+  <definition>
+f(x)=0.7-sin(x/1.26)
+  </definition>
+  <coordinates bbox="(-2,-1,4.8,2)">
+  <axes xlabel="x" ylabel="f'(x)"
+          hticks="(0,1,5)" hlabels="(0,1,4)"
+          vticks="" vlabels=""
+          arrows="1"/>
+  <graph function="f"/>
+  </coordinates>
+  </diagram>
+  </prefigure>
+</image>
+
+<p>
+  What are all values of <m>x</m> such that <m>f(x)</m> is decreasing?
+</p>
+
+<p>
+  <ol marker="(a)" cols="5">
+    <li>
+      <m>\{x\mid x \lt 0\}</m>
+    </li>
+
+    <li>
+      <m>\{x \mid 1\lt x\lt 3\}</m>
+    </li>
+
+    <li>
+      <m>\{x\mid x\lt 2\}</m>
+    </li>
+
+    <li>
+      <m>\{x\mid x\lt 1 \mbox{ or } x\gt 3\}</m>
+    </li>
+
+    <li>
+      <m>\mbox{There is not enough information to answer this question.}</m>
+    </li>
+  </ol>
+</p>
+  </article>
+
+</pretext>
