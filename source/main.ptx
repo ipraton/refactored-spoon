@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
-
-  <article xml:id="shorttitlelowercase">
+<!--<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">-->
+<pretext>
+ <article xml:id="shorttitlelowercase">
    <p>
   Here is a graph of the DERIVATIVE of a function <m>f</m>. The graph is of <m>f'</m>, NOT <m>f</m>.
 </p>
