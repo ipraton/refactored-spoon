@@ -12,5 +12,7 @@
           https://pretextbook.org/doc/guide/html/appendix-journals.html#appendix-journals -->
 
         <!--<journal name="ams" /> -->
+        <!-- This removes the 'PreTeXt' branding from the footer -->
+        <watermark printable="no">none</watermark>
     </common>
 </publication>
